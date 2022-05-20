@@ -14,6 +14,6 @@ if (isset($_REQUEST['name'],$_REQUEST['email'])) {
     $send_email = mail($to,$subject,$message,$headers);
       
     echo ($send_email) ? 'success' : 'error';
-      
+    
 }
 ?>

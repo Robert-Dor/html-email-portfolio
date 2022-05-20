@@ -149,7 +149,7 @@
             <form
               class="contactform"
               method="post"
-              action="php/process-form.php"
+              action="POST" data-netlify="true"
             >
               <div class="contactform">
                 <div class="row">
@@ -165,6 +165,9 @@
                       name="subject"
                       placeholder="YOUR SUBJECT"
                     />
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div data-netlify-recaptcha="true"></div>
                   </div>
                   <div class="col-12">
                     <textarea
