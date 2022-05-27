@@ -769,6 +769,10 @@ body.light hr.separator {
 #video {
   display: none;
 }
+/* .playit-resize {
+  height: 209.69px;
+  object-fit: fill;
+} */
 
 /* Grid */
 
@@ -1075,7 +1079,7 @@ body.light hr.separator {
 }
 .hide-info {
   text-decoration: none !important;
-  color: #343a40;
+  color: #666;
 }
 
 .contact ul.social {
